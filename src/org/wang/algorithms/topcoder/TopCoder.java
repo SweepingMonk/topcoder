@@ -17,7 +17,7 @@ public class TopCoder {
 	 */
 	public static void main(String[] args) {
 		// TODO code application logic here
-		RangeMinimumQuery rmq = new RMQSquare(20);
+		RangeMinimumQuery rmq = new RMQSqrtN(20);//RMQSquare(20);
 		rmq.preprocess();
 		System.out.println(rmq.toString());
 		System.out.println("Please input the start index and the end index!");
